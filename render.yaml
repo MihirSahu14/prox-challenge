@@ -1,0 +1,18 @@
+# Render blueprint: one free web service running everything (backend + built
+# frontend + committed knowledge base). In the Render dashboard: New +
+# Blueprint -> point at this repo -> fill in the env vars when prompted.
+services:
+  - type: web
+    name: omnipro-expert
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false # paste your key in the dashboard
+      - key: ACCESS_CODE
+        sync: false # pick a code; share it in the submission form
+      - key: AGENT_MODEL
+        value: claude-haiku-4-5
+      - key: ELEVENLABS_API_KEY
+        sync: false # optional — natural voice replies; leave blank to skip

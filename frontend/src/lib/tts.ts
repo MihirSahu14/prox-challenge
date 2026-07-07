@@ -9,6 +9,8 @@
 // speak() resolves when playback finishes — the hands-free loop uses that to
 // re-open the microphone.
 
+import { accessCodeHeader } from "../api/chatStream";
+
 export type Register = "calm" | "warm" | "brisk" | "neutral";
 
 const DELIVERY: Record<Register, { rate: number; pitch: number }> = {
@@ -65,7 +67,7 @@ async function speakElevenLabs(text: string, register: Register): Promise<boolea
   try {
     const res = await fetch("/api/tts", {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json", ...accessCodeHeader() },
       body: JSON.stringify({ text, register }),
     });
     if (!res.ok) return false;

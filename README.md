@@ -150,6 +150,19 @@ over a chunked POST — SSE can't carry a request body.
 - **Browser-native voice over hosted STT/TTS**: emotional intelligence comes from prosody
   features + prompt policy, not from a premium voice API — and setup stays friction-free.
 
+## Hosted demo (this branch)
+
+The `deployed` branch adds one-service hosting on Render's free tier: a multi-stage Dockerfile
+builds the frontend and serves it from FastAPI (one URL, no CORS), with the Claude Code CLI
+installed as the Agent SDK's transport and `fastembed` (ONNX, same MiniLM model — verified
+20/20 top-5 ranking agreement) replacing torch to fit 512MB RAM. The hosted instance runs on
+the deployer's `ANTHROPIC_API_KEY`; an optional `ACCESS_CODE` env var gates the
+credit-spending endpoints (the UI prompts for it once). Free-tier note: the service sleeps
+when idle — the first load may take a minute.
+
+Deploy: Render dashboard → **New → Blueprint** → point at this repo, branch `deployed`
+(`render.yaml` defines the service) → fill in `ANTHROPIC_API_KEY` and `ACCESS_CODE`.
+
 ## Model
 
 Runs on `claude-haiku-4-5` by default (fast, cheap). Set `AGENT_MODEL=claude-sonnet-5` in `.env`

@@ -6,11 +6,12 @@ speechSynthesis when this is disabled or a request fails.
 """
 
 import httpx
-from fastapi import APIRouter, HTTPException
+from fastapi import APIRouter, Depends, HTTPException
 from fastapi.responses import Response
 from pydantic import BaseModel
 
 from ..config import ELEVENLABS_API_KEY, ELEVENLABS_VOICE_ID
+from .gate import require_access_code
 
 router = APIRouter()
 
@@ -34,7 +35,7 @@ async def voice_config():
     return {"tts": "elevenlabs" if ELEVENLABS_API_KEY else "browser"}
 
 
-@router.post("/api/tts")
+@router.post("/api/tts", dependencies=[Depends(require_access_code)])
 async def tts(req: TTSRequest):
     if not ELEVENLABS_API_KEY:
         raise HTTPException(404, "Premium TTS not configured")

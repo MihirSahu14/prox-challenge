@@ -17,3 +17,11 @@ EMBED_MODEL = "all-MiniLM-L6-v2"
 # fallback); with a key, voice replies use ElevenLabs and sound human.
 ELEVENLABS_API_KEY = os.environ.get("ELEVENLABS_API_KEY", "")
 ELEVENLABS_VOICE_ID = os.environ.get("ELEVENLABS_VOICE_ID", "21m00Tcm4TlvDq8ikWAM")  # Rachel
+
+# Optional access gate for hosted deployments (a hosted instance runs on the
+# HOST'S API key). When set, credit-spending endpoints require a matching
+# X-Access-Code header; the frontend prompts once and remembers it.
+ACCESS_CODE = os.environ.get("ACCESS_CODE", "")
+
+# Built frontend, served by the backend in single-service hosting.
+FRONTEND_DIST = ROOT / "frontend" / "dist"

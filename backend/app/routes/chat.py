@@ -1,10 +1,11 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Depends
 from fastapi.responses import StreamingResponse
 from pydantic import BaseModel
 
 from ..agent.turn import run_turn
+from .gate import require_access_code
 
-router = APIRouter()
+router = APIRouter(dependencies=[Depends(require_access_code)])
 
 
 class ChatRequest(BaseModel):

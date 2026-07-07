@@ -2,7 +2,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.staticfiles import StaticFiles
 
-from .config import IMAGES_DIR
+from .config import FRONTEND_DIST, IMAGES_DIR
 from .routes.chat import router as chat_router
 from .routes.examples import router as examples_router
 from .routes.tts import router as tts_router
@@ -40,3 +40,11 @@ app.include_router(tts_router)
 @app.get("/api/health")
 async def health():
     return {"ok": True}
+
+
+# Single-service hosting: serve the built frontend from the backend so one
+# free host runs everything. Local dev keeps using Vite (:3001) — this mount
+# only activates when a build exists, and is mounted last so /api and
+# /kb-images take precedence.
+if FRONTEND_DIST.exists():
+    app.mount("/", StaticFiles(directory=FRONTEND_DIST, html=True), name="frontend")
