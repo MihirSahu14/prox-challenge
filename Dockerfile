@@ -26,14 +26,22 @@ RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certifi
 COPY backend/requirements-deploy.txt backend/requirements-deploy.txt
 RUN pip install --no-cache-dir -r backend/requirements-deploy.txt
 
-ENV EMBED_BACKEND=fastembed \
-    PYTHONUNBUFFERED=1
-
-# Bake the ONNX embedding model into the image so cold starts don't download it.
-RUN python -c "from fastembed import TextEmbedding; TextEmbedding('sentence-transformers/all-MiniLM-L6-v2')"
-
 COPY backend/ backend/
 COPY --from=frontend /fe/dist frontend/dist
+
+# Run as non-root: the Claude Code CLI (the Agent SDK's transport) refuses
+# bypassPermissions when running as root, which kills every agent turn with
+# "ProcessError: Command failed with exit code 1".
+RUN useradd -m appuser
+ENV EMBED_BACKEND=fastembed \
+    PYTHONUNBUFFERED=1 \
+    HOME=/home/appuser \
+    FASTEMBED_CACHE_PATH=/home/appuser/.cache/fastembed
+USER appuser
+
+# Bake the ONNX embedding model into the image (as appuser, into its own
+# cache) so cold starts don't download it.
+RUN python -c "from fastembed import TextEmbedding; TextEmbedding('sentence-transformers/all-MiniLM-L6-v2')"
 
 WORKDIR /app/backend
 EXPOSE 8000
