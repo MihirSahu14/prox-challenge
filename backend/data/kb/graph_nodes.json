@@ -1,0 +1,2034 @@
+[
+ {
+  "id": "porosity",
+  "type": "symptom",
+  "label": "Porosity",
+  "description": "Small cavities or holes in the bead",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "excessive-spatter",
+  "type": "symptom",
+  "label": "Excessive Spatter",
+  "description": "Spatter that is grainy and large",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "crooked-wavy-bead",
+  "type": "symptom",
+  "label": "Crooked/Wavy Bead",
+  "description": "Crooked or wavy bead pattern",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "burn-through",
+  "type": "symptom",
+  "label": "Burn-Through",
+  "description": "Base material melts away, leaving a hole in the weld",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "inadequate-penetration",
+  "type": "symptom",
+  "label": "Inadequate Penetration",
+  "description": "Weld does not penetrate the joint fully, just on the surface",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "excess-penetration",
+  "type": "symptom",
+  "label": "Excess Penetration or Burn-Through",
+  "description": "Weld droops on top and underneath, or falls through entirely, making a hole",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "bend-at-joint",
+  "type": "symptom",
+  "label": "Bend at Joint",
+  "description": "Weld bends at the joint",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "weld-not-adhering",
+  "type": "symptom",
+  "label": "Weld Not Adhering Properly",
+  "description": "Gaps present between weld and previous bead or between weld and workpiece",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "incorrect-polarity",
+  "type": "cause",
+  "label": "Incorrect Polarity",
+  "description": "Polarity not set correctly for type of welding",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "insufficient-shielding-gas",
+  "type": "cause",
+  "label": "Insufficient Shielding Gas",
+  "description": "Inadequate flow of shielding gas in MIG welding",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "incorrect-shielding-gas",
+  "type": "cause",
+  "label": "Incorrect Shielding Gas",
+  "description": "Wrong type of shielding gas used",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "dirty-workpiece-or-wire",
+  "type": "cause",
+  "label": "Dirty Workpiece or Welding Wire",
+  "description": "Workpiece or wire has oil, coatings, or other residues",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "inconsistent-travel-speed",
+  "type": "cause",
+  "label": "Inconsistent Travel Speed",
+  "description": "Travel speed is not steady during welding",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "ctwd-too-long",
+  "type": "cause",
+  "label": "CTWD Too Long",
+  "description": "Contact tube to work distance exceeds recommended length",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "wire-feed-too-fast",
+  "type": "cause",
+  "label": "Wire Feeding Too Fast",
+  "description": "Wire feed speed is excessive",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "workpiece-overheating",
+  "type": "cause",
+  "label": "Workpiece Overheating",
+  "description": "Workpiece temperature becomes too high",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "travel-speed-too-slow",
+  "type": "cause",
+  "label": "Travel Speed Too Slow",
+  "description": "Travel speed is insufficient",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "excessive-material-at-weld",
+  "type": "cause",
+  "label": "Excessive Material at Weld",
+  "description": "Too much wire material being deposited",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "incorrect-welding-technique",
+  "type": "cause",
+  "label": "Incorrect Welding Technique",
+  "description": "Improper gun angle, arc placement, or bead positioning",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "insufficient-weld-heat",
+  "type": "cause",
+  "label": "Insufficient Weld Heat",
+  "description": "Weld temperature is too low",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "workpieces-too-thick",
+  "type": "cause",
+  "label": "Workpieces Too Thick or Close",
+  "description": "Gap between workpieces is too narrow or material is too thick",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "insufficient-weld-material",
+  "type": "cause",
+  "label": "Insufficient Weld Material",
+  "description": "Not enough wire material being deposited",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "improper-clamping",
+  "type": "cause",
+  "label": "Improper Clamping",
+  "description": "Workpieces not securely clamped or tacked",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "excessive-heat",
+  "type": "cause",
+  "label": "Excessive Heat",
+  "description": "Heat input is too high",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "inaccurate-welding",
+  "type": "cause",
+  "label": "Inaccurate Welding",
+  "description": "Lack of hand steadiness during welding",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "workpiece-gap-too-narrow",
+  "type": "cause",
+  "label": "Workpiece Gap Too Narrow",
+  "description": "Gap between workpieces is insufficient",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-check-polarity",
+  "type": "fix",
+  "label": "Check Polarity Setting",
+  "description": "Check that polarity is set correctly for type of welding",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-increase-gas-flow",
+  "type": "fix",
+  "label": "Increase Gas Flow",
+  "description": "Increase flow of shielding gas and clean nozzle",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-use-correct-gas",
+  "type": "fix",
+  "label": "Use Correct Shielding Gas",
+  "description": "Use shielding gas recommended by wire supplier",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-clean-workpiece-and-wire",
+  "type": "fix",
+  "label": "Clean Workpiece and Wire",
+  "description": "Clean workpiece down to bare metal and ensure wire is clean and free from oil, coatings, and residues",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-maintain-steady-travel-speed",
+  "type": "fix",
+  "label": "Maintain Steady Travel Speed",
+  "description": "Keep travel speed consistent throughout welding",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-reduce-ctwd",
+  "type": "fix",
+  "label": "Reduce CTWD",
+  "description": "Reduce contact tube to work distance to less than 1/2 inch",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-reduce-wire-feed-speed",
+  "type": "fix",
+  "label": "Reduce Wire Feed Speed",
+  "description": "Decrease the wire feed speed",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-reduce-current",
+  "type": "fix",
+  "label": "Reduce Weld Current",
+  "description": "Decrease the weld current output",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-increase-travel-speed",
+  "type": "fix",
+  "label": "Increase Travel Speed",
+  "description": "Move welding torch faster and keep travel speed steady",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-reduce-current-or-wire-feed",
+  "type": "fix",
+  "label": "Reduce Current or Wire Feed Speed",
+  "description": "Decrease weld current and/or wire feed speed to prevent overheating",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-clamp-securely",
+  "type": "fix",
+  "label": "Clamp Workpieces Securely",
+  "description": "Clamp workpieces securely and make tack welds to hold them",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-cool-between-passes",
+  "type": "fix",
+  "label": "Cool Between Passes",
+  "description": "Weld a small portion and allow to cool before proceeding",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-correct-welding-technique",
+  "type": "fix",
+  "label": "Correct Welding Technique",
+  "description": "Maintain proper CTWD, keep arc on leading edge of puddle, hold MIG gun at proper angles, place stringer bead correctly, adjust workpiece position",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-increase-current",
+  "type": "fix",
+  "label": "Increase Weld Current",
+  "description": "Increase the weld current output",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-increase-wire-feed-speed",
+  "type": "fix",
+  "label": "Increase Wire Feed Speed",
+  "description": "Increase the wire feed speed",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-bevel-and-gap",
+  "type": "fix",
+  "label": "Bevel Thick Workpieces and Allow Gap",
+  "description": "Bevel thick workpieces, allow slight gap, and weld in several passes",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-widen-groove",
+  "type": "fix",
+  "label": "Widen Groove or Increase Bevel",
+  "description": "Widen the groove or increase bevel to provide adequate space",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "fix-steady-hand-position",
+  "type": "fix",
+  "label": "Use Two Hands or Steady Surface",
+  "description": "Use two hands or rest hand on steady surface to maintain accuracy",
+  "page": 37,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-welding",
+  "type": "process",
+  "label": "MIG Welding",
+  "description": "Metal Inert Gas welding process",
+  "page": 35,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "flux-cored-welding",
+  "type": "process",
+  "label": "Flux-Cored Welding",
+  "description": "Flux-cored wire welding process",
+  "page": 34,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "stick-welding",
+  "type": "process",
+  "label": "Stick Welding",
+  "description": "Stick welding process",
+  "page": 34,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-welding",
+  "type": "process",
+  "label": "TIG Welding",
+  "description": "Tungsten Inert Gas welding process",
+  "page": 34,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-duty-cycle",
+  "type": "spec",
+  "label": "MIG Duty Cycle",
+  "description": "Operating duty cycle specification for MIG welding",
+  "page": 35,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "ctwd-specification",
+  "type": "spec",
+  "label": "CTWD Specification",
+  "description": "Contact tube to work distance should be maintained at 1/2 inch or less for proper results",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "proper-weld-penetration",
+  "type": "spec",
+  "label": "Proper Weld Penetration",
+  "description": "Weld is visible underneath and bulges slightly on top",
+  "page": 36,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "stick-weld-process",
+  "type": "process",
+  "label": "Stick Weld",
+  "description": "Stick welding process using electrodes",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "current-too-low",
+  "type": "cause",
+  "label": "Current Too Low",
+  "description": "Welding current is insufficient for proper weld formation",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "current-too-high",
+  "type": "cause",
+  "label": "Current Too High",
+  "description": "Welding current is excessive causing spatter and wide bead",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "weld-speed-too-fast",
+  "type": "cause",
+  "label": "Weld Speed Too Fast",
+  "description": "Welding speed is too rapid resulting in narrow irregular bead",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "weld-speed-too-slow",
+  "type": "cause",
+  "label": "Weld Speed Too Slow",
+  "description": "Welding speed is too slow causing wide flat bead and excess heat",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "arc-length-too-short",
+  "type": "cause",
+  "label": "Arc Length Too Short",
+  "description": "Distance between electrode and workpiece is too small",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "arc-length-too-long",
+  "type": "cause",
+  "label": "Arc Length Too Long",
+  "description": "Distance between electrode and workpiece is too large",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "workpieces-too-thick-or-close",
+  "type": "cause",
+  "label": "Workpieces Too Thick or Close",
+  "description": "Workpiece thickness or joint gap prevents proper weld penetration",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "dirty-workpiece",
+  "type": "cause",
+  "label": "Dirty Workpiece",
+  "description": "Workpiece surface contaminated with oil, coatings, or other residues",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "distance-between-workpieces-too-large",
+  "type": "cause",
+  "label": "Distance Between Workpieces Too Large",
+  "description": "Gap between workpieces is too large for proper welding",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "inconsistent-welding-speed",
+  "type": "cause",
+  "label": "Inconsistent Welding Speed",
+  "description": "Welding speed is not maintained steady throughout the weld",
+  "page": 40,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "dirty-fill-material",
+  "type": "cause",
+  "label": "Dirty Fill Material or Electrode",
+  "description": "Fill material or electrode contaminated with oil, coatings, or residues",
+  "page": 40,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "increase-current",
+  "type": "fix",
+  "label": "Increase Current",
+  "description": "Increase the welding current to provide more heat and penetration",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "decrease-current",
+  "type": "fix",
+  "label": "Decrease Current",
+  "description": "Decrease the welding current to reduce heat and penetration",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "weld-slower",
+  "type": "fix",
+  "label": "Weld Slower",
+  "description": "Reduce welding speed to allow more time for material fusion and heat penetration",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "weld-faster",
+  "type": "fix",
+  "label": "Weld Faster",
+  "description": "Increase welding speed to reduce heat input and penetration",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "increase-arc-distance",
+  "type": "fix",
+  "label": "Increase Arc Distance",
+  "description": "Increase the distance between electrode and workpiece",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "decrease-arc-distance",
+  "type": "fix",
+  "label": "Decrease Arc Distance",
+  "description": "Decrease the distance between electrode and workpiece",
+  "page": 38,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "keep-arc-on-leading-edge",
+  "type": "fix",
+  "label": "Keep Arc on Leading Edge of Weld Puddle",
+  "description": "Position the arc at the leading edge of the weld puddle for proper fusion",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "hold-torch-at-proper-angles",
+  "type": "fix",
+  "label": "Hold Torch at Proper Angles",
+  "description": "Maintain proper torch and electrode angles during welding",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "slow-down-for-fusion",
+  "type": "fix",
+  "label": "Slow Down for Fill Material Fusion",
+  "description": "Reduce welding speed to allow fill material sufficient time to melt into weld location",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "bevel-thick-workpieces",
+  "type": "fix",
+  "label": "Bevel Thick Workpieces",
+  "description": "Cut beveled edges on thick workpieces to improve weld penetration",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "allow-slight-gap",
+  "type": "fix",
+  "label": "Allow Slight Gap Between Workpieces",
+  "description": "Ensure proper gap between workpieces and weld in several passes",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "place-stringer-bead-correctly",
+  "type": "fix",
+  "label": "Place Stringer Bead at Correct Location",
+  "description": "Position stringer bead at proper location in the joint",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "adjust-workpiece-position",
+  "type": "fix",
+  "label": "Adjust Workpiece Position or Weld Angle",
+  "description": "Reposition workpiece or adjust weld angle to permit proper welding to bottom of piece",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "increase-fill-material",
+  "type": "fix",
+  "label": "Increase Amount of Fill Material",
+  "description": "Use more fill material or electrode to ensure sufficient weld material",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "decrease-distance-increase-bevel",
+  "type": "fix",
+  "label": "Decrease Distance and Increase Bevel",
+  "description": "Reduce gap between workpieces and increase bevel for better fit",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "clamp-securely",
+  "type": "fix",
+  "label": "Clamp Workpieces Securely",
+  "description": "Use secure clamping to hold workpieces in position",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "make-tack-welds",
+  "type": "fix",
+  "label": "Make Tack Welds",
+  "description": "Create tack welds to hold workpieces in proper position",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "weld-small-portions-cool",
+  "type": "fix",
+  "label": "Weld Small Portions and Allow to Cool",
+  "description": "Weld a small portion and allow it to cool before proceeding to avoid excessive heat buildup",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "increase-weld-speed-reduce-heat",
+  "type": "fix",
+  "label": "Increase Weld Speed to Reduce Heat",
+  "description": "Increase welding speed to reduce excessive heat accumulation",
+  "page": 39,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "clean-workpiece-bare-metal",
+  "type": "fix",
+  "label": "Clean Workpiece to Bare Metal",
+  "description": "Remove all contaminants from workpiece surface down to bare metal",
+  "page": 40,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "clean-fill-material-electrode",
+  "type": "fix",
+  "label": "Clean Fill Material and Electrode",
+  "description": "Ensure fill material and electrode are clean and free from oil, coatings, and residues",
+  "page": 40,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "maintain-steady-weld-speed",
+  "type": "fix",
+  "label": "Maintain Steady Weld Speed",
+  "description": "Keep welding speed consistent throughout the entire weld",
+  "page": 40,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "use-both-hands-steady-surface",
+  "type": "fix",
+  "label": "Use Both Hands or Rest on Steady Surface",
+  "description": "Use two hands or rest hand on steady surface for accurate welding control",
+  "page": 40,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "wire-feed-motor-runs-but-wire-does-not-feed",
+  "type": "symptom",
+  "label": "Wire Feed Motor Runs but Wire Does Not Feed Properly",
+  "description": "Wire feed motor operates but welding wire is not being fed correctly",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "insufficient-wire-feed-pressure",
+  "type": "cause",
+  "label": "Insufficient Wire Feed Pressure",
+  "description": "Wire feed pressure setting is too low",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "incorrect-wire-feed-roller-size",
+  "type": "cause",
+  "label": "Incorrect Wire Feed Roller Size",
+  "description": "Wrong size wire feed roller is installed for the wire diameter",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "damaged-mig-gun-cable-liner",
+  "type": "cause",
+  "label": "Damaged MIG Gun, Cable, or Liner Assembly",
+  "description": "MIG gun, cable, or liner assembly has damage",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "feed-tensioner-too-tight",
+  "type": "cause",
+  "label": "Feed Tensioner is Too Tight",
+  "description": "Feed tensioner applies excessive pressure preventing wire feed",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "increase-wire-feed-pressure",
+  "type": "fix",
+  "label": "Increase Wire Feed Pressure",
+  "description": "Follow step 27 on page 17 to increase wire feed pressure properly",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "flip-wire-feed-roller",
+  "type": "fix",
+  "label": "Flip Wire Feed Roller to Correct Size",
+  "description": "Follow the Feed Roller instructions on page 12 to flip roll to correct size",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "inspect-replace-mig-gun-parts",
+  "type": "fix",
+  "label": "Inspect and Replace MIG Gun, Cable, or Liner",
+  "description": "Have a qualified technician inspect these parts and replace as necessary",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "loosen-feed-tensioner",
+  "type": "fix",
+  "label": "Loosen Feed Tensioner",
+  "description": "Loosen Feed Tensioner so it applies only enough pressure to prevent continued spinning after the Gun Trigger is released",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "wire-birdnesting",
+  "type": "symptom",
+  "label": "Wire Creates a Bird's Nest During Operation",
+  "description": "Welding wire tangles and creates a bird's nest during welding",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "excess-wire-feed-pressure",
+  "type": "cause",
+  "label": "Excess Wire Feed Pressure",
+  "description": "Wire feed pressure setting is too high",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "incorrect-contact-tip-size",
+  "type": "cause",
+  "label": "Incorrect Contact Tip Size",
+  "description": "Contact tip is wrong size for the wire being used",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-gun-cable-connector-not-fully-inserted",
+  "type": "cause",
+  "label": "MIG Gun Cable Connector Not Fully Inserted",
+  "description": "MIG Gun Cable Connector is not fully inserted into Wire Feed mechanism",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "damaged-liner",
+  "type": "cause",
+  "label": "Damaged Liner",
+  "description": "MIG gun liner is damaged",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "adjust-wire-feed-pressure",
+  "type": "fix",
+  "label": "Adjust Wire Feed Pressure",
+  "description": "Follow step 27 on page 17 to adjust wire feed pressure properly",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "replace-contact-tip-correct-size",
+  "type": "fix",
+  "label": "Replace Contact Tip with Proper Size",
+  "description": "Replace with the proper tip for wire used",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "insert-gun-cable-connector-properly",
+  "type": "fix",
+  "label": "Insert Gun Cable Connector Properly",
+  "description": "Follow steps 13 and 14 on page 13 to insert Gun Cable Connector properly",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "inspect-repair-liner",
+  "type": "fix",
+  "label": "Inspect and Repair or Replace Liner",
+  "description": "Have a qualified technician inspect and repair or replace the liner as necessary",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "wire-stops-during-welding",
+  "type": "symptom",
+  "label": "Wire Stops During Welding",
+  "description": "Welding wire stops feeding during the welding operation",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "gun-cable-severely-bent",
+  "type": "cause",
+  "label": "Gun Cable Severely Bent",
+  "description": "MIG gun cable is severely bent preventing wire feed",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "gun-liner-clogged-worn",
+  "type": "cause",
+  "label": "Gun Liner Clogged or Worn",
+  "description": "Gun liner is clogged with debris or worn",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "gun-liner-too-small",
+  "type": "cause",
+  "label": "Gun Liner Too Small for Wire",
+  "description": "Gun liner is too small for the welding wire being used",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "wire-tangled-on-spool",
+  "type": "cause",
+  "label": "Wire Tangled on Spool",
+  "description": "Welding wire is tangled on the spool",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "wire-not-contacting-feed-rollers",
+  "type": "cause",
+  "label": "Wire Not Making Contact with Feed Rollers",
+  "description": "Wire is not making contact with the feed rollers",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "feed-roller-not-enough-contact",
+  "type": "cause",
+  "label": "Feed Roller Not Making Enough Contact with Wire",
+  "description": "Feed roller is not making enough contact with wire or is crushing flux-cored wire",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "straighten-gun-cable",
+  "type": "fix",
+  "label": "Straighten Gun Cable",
+  "description": "Straighten the gun cable",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-replace-gun-liner",
+  "type": "fix",
+  "label": "Check Gun Liner for Obstruction and Replace",
+  "description": "Check gun liner for obstruction and replace if necessary",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "verify-gun-liner-size",
+  "type": "fix",
+  "label": "Verify Gun Liner is Correct Size",
+  "description": "Check that gun liner is correct size for wire diameter",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-wire-spool-tangling",
+  "type": "fix",
+  "label": "Check Wire for Tangling on Spool",
+  "description": "Check wire for cross winding or tangled spool",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-feed-roller-contact",
+  "type": "fix",
+  "label": "Check Feed Rollers and Groove",
+  "description": "Check Feed Rollers and ensure correct groove for wire diameter is being used",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-set-feed-tensioner",
+  "type": "fix",
+  "label": "Check and Set Feed Tensioner Properly",
+  "description": "Check Feed Tensioner and ensure it is set properly",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "welding-arc-not-stable",
+  "type": "symptom",
+  "label": "Welding Arc Not Stable",
+  "description": "Welding arc is unstable or fluctuating",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "wire-not-feeding-properly",
+  "type": "cause",
+  "label": "Wire Not Feeding Properly",
+  "description": "Wire feed system is not operating correctly",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "incorrect-contact-tip-liner-size-wear",
+  "type": "cause",
+  "label": "Incorrect Contact Tip or Liner Size or Excessive Wear",
+  "description": "Contact tip or liner is incorrect size or excessively worn",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "incorrect-wire-feed-speed",
+  "type": "cause",
+  "label": "Incorrect Wire Feed Speed",
+  "description": "Wire feed speed setting is not appropriate for the application",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "loose-mig-gun-ground-cable",
+  "type": "cause",
+  "label": "Loose MIG Gun Cable or Ground Cable",
+  "description": "MIG gun cable or ground cable connections are loose",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "damaged-mig-gun-loose-connection",
+  "type": "cause",
+  "label": "Damaged MIG Gun or Loose Connection Within Gun",
+  "description": "MIG gun is damaged or has loose internal connections",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "incorrect-polarity-mig-flux",
+  "type": "cause",
+  "label": "Incorrect Polarity for Process",
+  "description": "Polarity setting is incorrect for the welding process being run",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "gas-coverage-insufficient-high",
+  "type": "cause",
+  "label": "Gas Coverage Insufficient or Too High",
+  "description": "Shielding gas flow rate is insufficient or too high",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "poor-workpiece-connection",
+  "type": "cause",
+  "label": "Poor Connection with Workpiece",
+  "description": "Ground clamp connection to workpiece is poor",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "see-wire-feed-troubleshooting",
+  "type": "fix",
+  "label": "See Wire Feed Troubleshooting Section",
+  "description": "Refer to the Wire Feed Motor troubleshooting section above",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "replace-tip-liner-proper-size",
+  "type": "fix",
+  "label": "Replace Contact Tip or Liner with Proper Size",
+  "description": "Replace with the proper tip or liner size for wire used",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "adjust-wire-feed-speed",
+  "type": "fix",
+  "label": "Adjust Wire Feed Speed",
+  "description": "Adjust wire feed speed to achieve a more stable arc",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-cable-connections-tight",
+  "type": "fix",
+  "label": "Ensure All Cable Connections are Tight",
+  "description": "Check to ensure that all connections are tight",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "inspect-repair-gun",
+  "type": "fix",
+  "label": "Inspect and Repair or Replace MIG Gun",
+  "description": "Have a qualified technician inspect and repair or replace as necessary",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "ensure-correct-polarity",
+  "type": "fix",
+  "label": "Ensure Correct Polarity for Process",
+  "description": "Ensure polarity is correct for operation: DCEP for MIG welding and DCEN for Flux-Cored self-shielded welding",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-gas-flow-rate",
+  "type": "fix",
+  "label": "Check Gas Flow Rate and Connector",
+  "description": "Ensure gas flow rate is set according to Settings Chart and MIG Gun Cable Connector is fully inserted with no O-Rings exposed",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-ground-clamp-connection",
+  "type": "fix",
+  "label": "Check Ground Clamp Connection and Gun Securing",
+  "description": "Check the ground clamp connection to the workpiece and machine, and ensure the MIG Gun is properly secured",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "weak-arc-strength",
+  "type": "symptom",
+  "label": "Weak Arc Strength",
+  "description": "Welding arc is weak or lacking sufficient strength",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "incorrect-line-voltage",
+  "type": "cause",
+  "label": "Incorrect Line Voltage",
+  "description": "Input line voltage is incorrect or insufficient",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "improper-cord-gauge-length",
+  "type": "cause",
+  "label": "Improper Gauge or Length of Cord",
+  "description": "Power cord gauge or length is improper for the welder",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "not-enough-current",
+  "type": "cause",
+  "label": "Not Enough Current",
+  "description": "Welding current setting is too low for the application",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-line-voltage",
+  "type": "fix",
+  "label": "Check Line Voltage and Consult Electrician",
+  "description": "Check the line voltage and, if insufficient, have a licensed electrician remedy the situation",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "use-supplied-power-cord",
+  "type": "fix",
+  "label": "Use Only Supplied Power Cord",
+  "description": "Do not use an extension cord on this Welder. Use only one of the supplied power cords for this Welder or an identical replacement cord",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "switch-current-proper-setting",
+  "type": "fix",
+  "label": "Switch Current to Proper Setting",
+  "description": "Switch current to proper setting for metal thickness",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "welder-does-not-function-when-switched-on",
+  "type": "symptom",
+  "label": "Welder Does Not Function When Switched On",
+  "description": "Welder does not turn on or function when power switch is activated",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tripped-thermal-protection",
+  "type": "cause",
+  "label": "Tripped Thermal Protection Device",
+  "description": "Thermal protection device has been triggered due to overheating",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "circuit-insufficient-voltage-amperage",
+  "type": "cause",
+  "label": "Circuit Supplies Insufficient Input Voltage or Amperage",
+  "description": "Input circuit does not provide required voltage or amperage",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "faulty-improperly-connected-trigger",
+  "type": "cause",
+  "label": "Faulty or Improperly Connected Trigger",
+  "description": "Trigger is faulty or not properly connected",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "machine-low-over-voltage-protection",
+  "type": "cause",
+  "label": "Machine is in Low- or Over-Voltage Protection",
+  "description": "Machine has activated low or over-voltage protection mode",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "machine-incorrect-mode",
+  "type": "cause",
+  "label": "Machine is in Incorrect Mode",
+  "description": "Wrong welding process mode has been selected",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "wait-cool-and-reset",
+  "type": "fix",
+  "label": "Wait for Welder to Cool and Reset",
+  "description": "If a warning screen appears, stop and wait with the Power Switch ON for the Welder to cool. Reduce duration or frequency of welding periods. Refer to Duty Cycle on page 19",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "verify-circuit-voltage-amperage",
+  "type": "fix",
+  "label": "Verify Circuit Voltage and Amperage",
+  "description": "Verify that the circuit is designed to supply the required input voltage and amperage as detailed on the Specifications table",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "secure-replace-trigger",
+  "type": "fix",
+  "label": "Secure or Replace Trigger",
+  "description": "Ensure the gun connection is properly seated on machine. Qualified technician must check and secure or replace Trigger",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-reset-input-voltage",
+  "type": "fix",
+  "label": "Check Input Voltage and Press Reset Button",
+  "description": "Check input voltage and ensure it falls within the specified range. If correct, press Reset Button on back of machine",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "select-correct-process",
+  "type": "fix",
+  "label": "Select Correct Welding Process",
+  "description": "Ensure the correct process has been selected",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "lcd-display-not-light",
+  "type": "symptom",
+  "label": "LCD Display Does Not Light When Welder is Switched On",
+  "description": "LCD display screen does not light up when welder is powered on",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "unit-not-connected-outlet-properly",
+  "type": "cause",
+  "label": "Unit Not Connected to Outlet Properly",
+  "description": "Welder is not properly connected to the electrical outlet",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "outlet-unpowered",
+  "type": "cause",
+  "label": "Outlet is Unpowered",
+  "description": "Electrical outlet has no power",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "plug-incorrect-rating",
+  "type": "cause",
+  "label": "Plug Does Not Have Correct Rating",
+  "description": "Installed plug does not have correct electrical rating",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "circuit-breaker-tripped-high-amperage",
+  "type": "cause",
+  "label": "Circuit Breaker Tripped Due to High Input Amperage",
+  "description": "Circuit breaker has tripped from excessive input amperage",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "power-cord-not-seated-properly",
+  "type": "cause",
+  "label": "Input Power Cord Not Seated Properly",
+  "description": "Twist lock input power cord is not fully secured",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "verify-outlet-voltage-connection",
+  "type": "fix",
+  "label": "Verify Outlet Voltage and Connection",
+  "description": "Verify the voltage at the outlet and the connection to the outlet",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-circuit-breaker-gfci",
+  "type": "fix",
+  "label": "Check Circuit Breaker and GFCI Devices",
+  "description": "Check circuit breaker/GFCI devices; if any are tripped, determine and remedy cause before resetting. Verify circuit is designed for required amperage",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "verify-plug-rating",
+  "type": "fix",
+  "label": "Verify Plug Has Correct Rating",
+  "description": "Make sure installed plug is correct rating. See Specifications on page 7",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "press-reset-button",
+  "type": "fix",
+  "label": "Press Reset Button on Back of Machine",
+  "description": "Press Reset Button on back of machine to reset circuit breaker",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "ensure-power-cord-fully-secured",
+  "type": "fix",
+  "label": "Ensure Power Cord is Fully Secured",
+  "description": "Ensure the twist lock input Power Cord is fully secured",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "wire-feeds-arc-does-not-ignite",
+  "type": "symptom",
+  "label": "Wire Feeds but Arc Does Not Ignite",
+  "description": "Welding wire feeds properly but arc does not initiate",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "improper-ground-connection",
+  "type": "cause",
+  "label": "Improper Ground Connection",
+  "description": "Workpiece ground connection is inadequate or improper",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "improperly-sized-contact-tip",
+  "type": "cause",
+  "label": "Improperly Sized Contact Tip",
+  "description": "Contact tip size does not match the welding wire size",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "excessively-worn-contact-tip",
+  "type": "cause",
+  "label": "Excessively Worn Contact Tip",
+  "description": "Contact tip hole is deformed or enlarged from wear",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "dirty-contact-tip",
+  "type": "cause",
+  "label": "Dirty Contact Tip",
+  "description": "Contact tip has dirt or debris contamination",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-ground-clamp-workpiece",
+  "type": "fix",
+  "label": "Check Ground Clamp and Clean Workpiece",
+  "description": "Make certain that the workpiece is contacted properly by the Ground Clamp and that the workpiece is properly cleaned near the ground clamp and the welding location",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "verify-contact-tip-size-replace",
+  "type": "fix",
+  "label": "Verify and Replace Contact Tip",
+  "description": "Verify that Contact Tip is the proper size for welding wire. If needed, replace Contact Tip with proper size and type",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-replace-worn-contact-tip",
+  "type": "fix",
+  "label": "Check and Replace Worn Contact Tip",
+  "description": "Check that the hole in the tip is not deformed or enlarged. If needed, replace Contact Tip with proper size and type",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "clean-contact-tip",
+  "type": "fix",
+  "label": "Clean Contact Tip",
+  "description": "Properly clean Contact Tip",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "porosity-in-weld-metal",
+  "type": "symptom",
+  "label": "Porosity in the Weld Metal",
+  "description": "Weld metal contains porosity or gas pockets",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "shielding-gas-bottle-empty",
+  "type": "cause",
+  "label": "Shielding Gas Bottle is Empty",
+  "description": "Shielding gas bottle has been depleted",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "shielding-gas-flow-incorrect",
+  "type": "cause",
+  "label": "Shielding Gas Flow Incorrect",
+  "description": "Shielding gas flow rate is not sufficient or is too high",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "polarity-incorrect",
+  "type": "cause",
+  "label": "Polarity is Incorrect for Application",
+  "description": "Welding polarity is incorrect for the process",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "dirty-welding-wire",
+  "type": "cause",
+  "label": "Dirty Welding Wire",
+  "description": "Welding wire has rust and residues contaminating it",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-replenish-gas-bottle",
+  "type": "fix",
+  "label": "Check and Replenish Gas Bottle",
+  "description": "Check gas bottle and replenish as necessary",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-gas-regulator-flow",
+  "type": "fix",
+  "label": "Check Gas Regulator Flow",
+  "description": "Check gas regulator to ensure proper flow",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-ctwd-procedure",
+  "type": "fix",
+  "label": "Check CTWD Procedure",
+  "description": "Check CTWD (contact tip to work distance) for the proper procedure",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "check-polarity-dcep-dcen",
+  "type": "fix",
+  "label": "Check Polarity DCEP for MIG or DCEN for Flux-Cored",
+  "description": "Check the polarity and ensure it is DCEP for MIG and DCEN for Flux-Cored",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "clean-welding-wire",
+  "type": "fix",
+  "label": "Clean Welding Wire",
+  "description": "Make certain that welding wire is clean and free of rust and residues",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-weak-arc-strength",
+  "type": "symptom",
+  "label": "Weak Arc Strength (TIG/Stick)",
+  "description": "Welding arc is weak or lacking sufficient strength in TIG or Stick processes",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-incorrect-line-voltage",
+  "type": "cause",
+  "label": "Incorrect Line Voltage (TIG/Stick)",
+  "description": "Input line voltage is incorrect or insufficient for TIG/Stick processes",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-improper-cord-gauge-length",
+  "type": "cause",
+  "label": "Improper Gauge or Length of Cord (TIG/Stick)",
+  "description": "Power cord gauge or length is improper for TIG/Stick welding",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-check-line-voltage",
+  "type": "fix",
+  "label": "Check Line Voltage and Consult Electrician (TIG/Stick)",
+  "description": "Check the line voltage and, if insufficient, have a licensed electrician remedy the situation",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-use-supplied-power-cord",
+  "type": "fix",
+  "label": "Use Only Supplied Power Cord (TIG/Stick)",
+  "description": "Do not use an extension cord on this Welder. Use only one of the supplied power cords or an identical replacement cord",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-welder-not-function",
+  "type": "symptom",
+  "label": "Welder Does Not Function When Switched On (TIG/Stick)",
+  "description": "TIG/Stick welder does not turn on or function when power switch is activated",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-tripped-thermal-protection",
+  "type": "cause",
+  "label": "Tripped Thermal Protection Device (TIG/Stick)",
+  "description": "Thermal protection device has been triggered due to overheating in TIG/Stick mode",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-faulty-trigger",
+  "type": "cause",
+  "label": "Faulty or Improperly Connected Trigger (TIG/Stick)",
+  "description": "Trigger is faulty or not properly connected for TIG/Stick operation",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-ground-clamp-not-attached",
+  "type": "cause",
+  "label": "Ground Clamp Not Attached to Workpiece (TIG/Stick)",
+  "description": "Ground clamp is not attached to the workpiece",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-shielding-gas-not-connected",
+  "type": "cause",
+  "label": "Shielding Gas Not Connected (TIG/Stick)",
+  "description": "Shielding gas supply is not connected to the TIG/Stick welder",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-reduce-welding-duration",
+  "type": "fix",
+  "label": "Reduce Welding Duration and Check Duty Cycle (TIG/Stick)",
+  "description": "Reduce duration or frequency of welding periods. Refer to Duty Cycle (Duration of Use) on page 29",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-secure-replace-trigger-fix",
+  "type": "fix",
+  "label": "Secure or Replace Trigger (TIG/Stick)",
+  "description": "Qualified technician must check and secure or replace Trigger",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-attach-ground-clamp",
+  "type": "fix",
+  "label": "Attach Ground Clamp to Workpiece (TIG/Stick)",
+  "description": "Attach Ground Clamp to workpiece",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-connect-shielding-gas",
+  "type": "fix",
+  "label": "Connect Shielding Gas (TIG/Stick)",
+  "description": "Connect shielding gas to Welder",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-lcd-not-light",
+  "type": "symptom",
+  "label": "LCD Display Does Not Light When Welder is Switched On (TIG/Stick)",
+  "description": "LCD display screen does not light up when TIG/Stick welder is powered on",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-unit-not-connected-outlet",
+  "type": "cause",
+  "label": "Unit Not Connected to Outlet Properly (TIG/Stick)",
+  "description": "TIG/Stick welder is not properly connected to the electrical outlet",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-outlet-unpowered",
+  "type": "cause",
+  "label": "Outlet is Unpowered (TIG/Stick)",
+  "description": "Electrical outlet has no power for TIG/Stick welder",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-verify-outlet",
+  "type": "fix",
+  "label": "Verify Outlet Voltage and Connection (TIG/Stick)",
+  "description": "Verify the voltage at the outlet and the connection to the outlet",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-check-breaker",
+  "type": "fix",
+  "label": "Check Circuit Breaker and GFCI (TIG/Stick)",
+  "description": "Check circuit breaker/GFCI devices; if any are tripped, determine and remedy cause before resetting. Verify circuit is designed for required amperage",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-welding-arc-not-stable",
+  "type": "symptom",
+  "label": "Welding Arc Not Stable (TIG/Stick)",
+  "description": "Welding arc is unstable or fluctuating in TIG/Stick processes",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-loose-electrode-cable",
+  "type": "cause",
+  "label": "Loose Electrode Cable or Ground Cable (TIG/Stick)",
+  "description": "Electrode cable or ground cable connections are loose in TIG/Stick setup",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-damaged-electrode-holder",
+  "type": "cause",
+  "label": "Damaged Electrode Holder or Loose Connection (TIG/Stick)",
+  "description": "Electrode holder is damaged or has loose internal connections",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-adjust-current-setting",
+  "type": "cause",
+  "label": "Current Setting Needs Adjustment (TIG/Stick)",
+  "description": "Current setting does not match recommended setting for the application",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-shielding-gas-low",
+  "type": "cause",
+  "label": "Shielding Gas Getting Low (TIG/Stick)",
+  "description": "Shielding gas cylinder is running low on gas",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-check-connections-tight",
+  "type": "fix",
+  "label": "Check All Connections are Tight (TIG/Stick)",
+  "description": "Check to ensure that all connections are tight",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-inspect-electrode-holder",
+  "type": "fix",
+  "label": "Inspect and Repair or Replace Electrode Holder (TIG/Stick)",
+  "description": "Have a qualified technician inspect and repair or replace as necessary",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-match-current-setting",
+  "type": "fix",
+  "label": "Match Current Setting to Chart (TIG/Stick)",
+  "description": "Make sure setting matches recommended setting on chart",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-stick-replace-gas-cylinder",
+  "type": "fix",
+  "label": "Replace Shielding Gas Cylinder (TIG/Stick)",
+  "description": "Replace shielding gas cylinder",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-process",
+  "type": "process",
+  "label": "MIG Welding",
+  "description": "Gas Metal Arc Welding (GMAW) process",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "flux-cored-process",
+  "type": "process",
+  "label": "Flux-Cored Welding",
+  "description": "Flux-Cored Arc Welding (FCAW) process",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-process",
+  "type": "process",
+  "label": "TIG Welding",
+  "description": "Tungsten Inert Gas (TIG) welding process",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "stick-process",
+  "type": "process",
+  "label": "Stick Welding",
+  "description": "Shielded Metal Arc Welding (SMAW) process",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "dcep-polarity",
+  "type": "spec",
+  "label": "DCEP Polarity for MIG",
+  "description": "Polarity setting for MIG welding is DCEP (Direct Current Electrode Positive)",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "dcen-polarity-flux-cored",
+  "type": "spec",
+  "label": "DCEN Polarity for Flux-Cored",
+  "description": "Polarity setting for Flux-Cored self-shielded welding is DCEN (Direct Current Electrode Negative)",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "duty-cycle-page-19",
+  "type": "spec",
+  "label": "Duty Cycle on Page 19",
+  "description": "Refer to Duty Cycle information on page 19 for MIG/Flux-Cored welding",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "duty-cycle-page-29",
+  "type": "spec",
+  "label": "Duty Cycle on Page 29",
+  "description": "Refer to Duty Cycle information on page 29 for TIG/Stick welding",
+  "page": 44,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "wire-feed-pressure-step-27-page-17",
+  "type": "setting",
+  "label": "Wire Feed Pressure Adjustment (Step 27, Page 17)",
+  "description": "Wire feed pressure is adjusted following step 27 on page 17",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "feed-roller-instructions-page-12",
+  "type": "setting",
+  "label": "Feed Roller Instructions (Page 12)",
+  "description": "Wire feed roller adjustment procedures found on page 12",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "gun-cable-connector-steps-13-14-page-13",
+  "type": "setting",
+  "label": "Gun Cable Connector Installation (Steps 13-14, Page 13)",
+  "description": "Gun cable connector installation procedure on steps 13 and 14 of page 13",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "settings-chart-gas-flow",
+  "type": "setting",
+  "label": "Gas Flow Rate Settings Chart",
+  "description": "Gas flow rate should be set according to the Settings Chart",
+  "page": 42,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "specifications-table-page-7",
+  "type": "spec",
+  "label": "Specifications Table (Page 7)",
+  "description": "Input voltage and amperage specifications found on page 7",
+  "page": 43,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-gun-nozzle-contact-tip-inspection",
+  "type": "process",
+  "label": "MIG Gun Nozzle and Contact Tip Inspection",
+  "description": "Maintenance procedure for inspecting and cleaning MIG gun nozzle and contact tip before each use",
+  "page": 41,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "contact-tip-hole-shape",
+  "type": "spec",
+  "label": "Contact Tip Hole Should Be Even Circle",
+  "description": "The hole at the end of Contact Tip should be an even circle, not oblong or bulged",
+  "page": 41,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-120v-current-range",
+  "type": "spec",
+  "label": "MIG 120VAC Current Range",
+  "description": "30 \u2013 140 A welding current range at 120 VAC / 60 Hz",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-240v-current-range",
+  "type": "spec",
+  "label": "MIG 240VAC Current Range",
+  "description": "30 \u2013 220 A welding current range at 240 VAC / 60 Hz",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-120v-duty-cycle",
+  "type": "spec",
+  "label": "MIG 120VAC Duty Cycle",
+  "description": "40% @ 100 A, 100% @ 75 A",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-240v-duty-cycle",
+  "type": "spec",
+  "label": "MIG 240VAC Duty Cycle",
+  "description": "25% @ 200 A, 100% @ 115 A",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-wire-speed",
+  "type": "spec",
+  "label": "MIG Wire Speed",
+  "description": "50 \u2013 500 IPM",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-wire-capacity",
+  "type": "spec",
+  "label": "MIG Welding Wire Capacity",
+  "description": "Solid Core: 0.025\" / 0.030\" / 0.035\", Flux Cored: 0.030\" / 0.035\" / 0.045\"",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-wire-spool-capacity",
+  "type": "spec",
+  "label": "MIG Wire Spool Capacity",
+  "description": "Up to 12 lb spool",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "mig-maximum-ocv",
+  "type": "spec",
+  "label": "MIG Maximum OCV",
+  "description": "86 VDC",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-120v-current-range",
+  "type": "spec",
+  "label": "TIG 120VAC Current Range",
+  "description": "10 A \u2013 125 A welding current range at 120 VAC / 60 Hz",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-240v-current-range",
+  "type": "spec",
+  "label": "TIG 240VAC Current Range",
+  "description": "10 A \u2013 175 A welding current range at 240 VAC / 60 Hz",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-120v-duty-cycle",
+  "type": "spec",
+  "label": "TIG 120VAC Duty Cycle",
+  "description": "40% @ 125 A, 100% @ 90 A",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-240v-duty-cycle",
+  "type": "spec",
+  "label": "TIG 240VAC Duty Cycle",
+  "description": "30% @ 175 A, 100% @ 105 A",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "tig-maximum-ocv",
+  "type": "spec",
+  "label": "TIG Maximum OCV",
+  "description": "86 VDC",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "stick-120v-current-range",
+  "type": "spec",
+  "label": "Stick 120VAC Current Range",
+  "description": "10 A \u2013 80 A welding current range at 120 VAC / 60 Hz",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "stick-240v-current-range",
+  "type": "spec",
+  "label": "Stick 240VAC Current Range",
+  "description": "10 A \u2013 175 A welding current range at 240 VAC / 60 Hz",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "stick-120v-duty-cycle",
+  "type": "spec",
+  "label": "Stick 120VAC Duty Cycle",
+  "description": "40% @ 80 A, 100% @ 60 A",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "stick-240v-duty-cycle",
+  "type": "spec",
+  "label": "Stick 240VAC Duty Cycle",
+  "description": "25% @ 175 A, 100% @ 100 A",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "stick-maximum-ocv",
+  "type": "spec",
+  "label": "Stick Maximum OCV",
+  "description": "86 VDC",
+  "page": 7,
+  "doc": "owner-manual.pdf"
+ },
+ {
+  "id": "flux-core-process",
+  "type": "process",
+  "label": "Flux-Cored Welding",
+  "description": "Welding process using flux-cored wire",
+  "page": 1,
+  "doc": "quick-start-guide.pdf"
+ },
+ {
+  "id": "mig-ground-clamp-negative",
+  "type": "setting",
+  "label": "MIG Ground Clamp Polarity",
+  "description": "Ground clamp connected to negative terminal for MIG welding",
+  "page": 2,
+  "doc": "quick-start-guide.pdf"
+ },
+ {
+  "id": "mig-wire-feed-positive",
+  "type": "setting",
+  "label": "MIG Wire Feed Power Polarity",
+  "description": "Wire feed power connected to positive terminal for MIG welding",
+  "page": 2,
+  "doc": "quick-start-guide.pdf"
+ },
+ {
+  "id": "flux-ground-clamp-positive",
+  "type": "setting",
+  "label": "Flux-Core Ground Clamp Polarity",
+  "description": "Ground clamp connected to positive terminal for flux-cored welding",
+  "page": 2,
+  "doc": "quick-start-guide.pdf"
+ },
+ {
+  "id": "flux-wire-feed-negative",
+  "type": "setting",
+  "label": "Flux-Core Wire Feed Power Polarity",
+  "description": "Wire feed power connected to negative terminal for flux-cored welding",
+  "page": 2,
+  "doc": "quick-start-guide.pdf"
+ },
+ {
+  "id": "stick-ground-clamp-negative",
+  "type": "setting",
+  "label": "Stick Ground Clamp Polarity",
+  "description": "Ground clamp connected to negative terminal for stick welding",
+  "page": 2,
+  "doc": "quick-start-guide.pdf"
+ },
+ {
+  "id": "stick-electrode-holder-positive",
+  "type": "setting",
+  "label": "Stick Electrode Holder Polarity",
+  "description": "Electrode holder connected to positive terminal for stick welding",
+  "page": 2,
+  "doc": "quick-start-guide.pdf"
+ },
+ {
+  "id": "tig-ground-clamp-positive",
+  "type": "setting",
+  "label": "TIG Ground Clamp Polarity",
+  "description": "Ground clamp connected to positive terminal for TIG welding",
+  "page": 2,
+  "doc": "quick-start-guide.pdf"
+ },
+ {
+  "id": "tig-torch-negative",
+  "type": "setting",
+  "label": "TIG Torch Polarity",
+  "description": "TIG torch connected to negative terminal for TIG welding",
+  "page": 2,
+  "doc": "quick-start-guide.pdf"
+ },
+ {
+  "id": "wire-feed-tension-2-3-inches",
+  "type": "spec",
+  "label": "Wire Feed Tension Setting",
+  "description": "Wire feed tension adjusted until wire bends from tension at 2-3 inches",
+  "page": 1,
+  "doc": "quick-start-guide.pdf"
+ },
+ {
+  "id": "contact-tip-nozzle-distance",
+  "type": "spec",
+  "label": "Contact Tip to Nozzle Distance",
+  "description": "Contact tip and nozzle assembly with 2 inch measurement",
+  "page": 1,
+  "doc": "quick-start-guide.pdf"
+ }
+]

@@ -1,0 +1,1717 @@
+[
+ {
+  "source": "bend-at-joint",
+  "target": "fix-clamp-securely",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "bend-at-joint",
+  "target": "fix-cool-between-passes",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "bend-at-joint",
+  "target": "fix-increase-travel-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "bend-at-joint",
+  "target": "fix-reduce-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "bend-at-joint",
+  "target": "stick-weld-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "burn-through",
+  "target": "fix-increase-travel-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "burn-through",
+  "target": "fix-reduce-current-or-wire-feed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "burn-through",
+  "target": "fix-reduce-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "burn-through",
+  "target": "maintain-steady-weld-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "burn-through",
+  "target": "stick-weld-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "burn-through",
+  "target": "weld-faster",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "circuit-breaker-tripped-high-amperage",
+  "target": "lcd-display-not-light",
+  "relation": "causes"
+ },
+ {
+  "source": "circuit-breaker-tripped-high-amperage",
+  "target": "press-reset-button",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "circuit-insufficient-voltage-amperage",
+  "target": "verify-circuit-voltage-amperage",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "circuit-insufficient-voltage-amperage",
+  "target": "welder-does-not-function-when-switched-on",
+  "relation": "causes"
+ },
+ {
+  "source": "contact-tip-nozzle-distance",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "crooked-wavy-bead",
+  "target": "fix-maintain-steady-travel-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "crooked-wavy-bead",
+  "target": "fix-steady-hand-position",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "crooked-wavy-bead",
+  "target": "stick-weld-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "ctwd-too-long",
+  "target": "check-ctwd-procedure",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "ctwd-too-long",
+  "target": "crooked-wavy-bead",
+  "relation": "causes"
+ },
+ {
+  "source": "ctwd-too-long",
+  "target": "excessive-spatter",
+  "relation": "causes"
+ },
+ {
+  "source": "ctwd-too-long",
+  "target": "fix-reduce-ctwd",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "ctwd-too-long",
+  "target": "porosity",
+  "relation": "causes"
+ },
+ {
+  "source": "ctwd-too-long",
+  "target": "porosity-in-weld-metal",
+  "relation": "causes"
+ },
+ {
+  "source": "current-too-high",
+  "target": "decrease-current",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "current-too-high",
+  "target": "excessive-spatter",
+  "relation": "causes"
+ },
+ {
+  "source": "current-too-low",
+  "target": "inadequate-penetration",
+  "relation": "causes"
+ },
+ {
+  "source": "current-too-low",
+  "target": "increase-current",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "damaged-liner",
+  "target": "inspect-repair-liner",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "damaged-liner",
+  "target": "wire-birdnesting",
+  "relation": "causes"
+ },
+ {
+  "source": "damaged-mig-gun-cable-liner",
+  "target": "inspect-replace-mig-gun-parts",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "damaged-mig-gun-cable-liner",
+  "target": "wire-feed-motor-runs-but-wire-does-not-feed",
+  "relation": "causes"
+ },
+ {
+  "source": "damaged-mig-gun-loose-connection",
+  "target": "inspect-repair-gun",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "damaged-mig-gun-loose-connection",
+  "target": "welding-arc-not-stable",
+  "relation": "causes"
+ },
+ {
+  "source": "dcen-polarity-flux-cored",
+  "target": "flux-cored-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "dcep-polarity",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "dirty-contact-tip",
+  "target": "clean-contact-tip",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "dirty-contact-tip",
+  "target": "wire-feeds-arc-does-not-ignite",
+  "relation": "causes"
+ },
+ {
+  "source": "dirty-fill-material",
+  "target": "clean-fill-material-electrode",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "dirty-fill-material",
+  "target": "excessive-spatter",
+  "relation": "causes"
+ },
+ {
+  "source": "dirty-fill-material",
+  "target": "porosity",
+  "relation": "causes"
+ },
+ {
+  "source": "dirty-welding-wire",
+  "target": "clean-welding-wire",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "dirty-welding-wire",
+  "target": "porosity-in-weld-metal",
+  "relation": "causes"
+ },
+ {
+  "source": "dirty-workpiece",
+  "target": "clean-workpiece-bare-metal",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "dirty-workpiece",
+  "target": "excessive-spatter",
+  "relation": "causes"
+ },
+ {
+  "source": "dirty-workpiece",
+  "target": "porosity",
+  "relation": "causes"
+ },
+ {
+  "source": "dirty-workpiece",
+  "target": "porosity-in-weld-metal",
+  "relation": "causes"
+ },
+ {
+  "source": "dirty-workpiece",
+  "target": "weld-not-adhering",
+  "relation": "causes"
+ },
+ {
+  "source": "dirty-workpiece-or-wire",
+  "target": "excessive-spatter",
+  "relation": "causes"
+ },
+ {
+  "source": "dirty-workpiece-or-wire",
+  "target": "fix-clean-workpiece-and-wire",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "dirty-workpiece-or-wire",
+  "target": "porosity",
+  "relation": "causes"
+ },
+ {
+  "source": "dirty-workpiece-or-wire",
+  "target": "weld-not-adhering",
+  "relation": "causes"
+ },
+ {
+  "source": "distance-between-workpieces-too-large",
+  "target": "decrease-distance-increase-bevel",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "distance-between-workpieces-too-large",
+  "target": "weld-not-adhering",
+  "relation": "causes"
+ },
+ {
+  "source": "excess-penetration",
+  "target": "fix-reduce-current",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excess-penetration",
+  "target": "fix-reduce-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excess-penetration",
+  "target": "stick-weld-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "excess-wire-feed-pressure",
+  "target": "adjust-wire-feed-pressure",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excess-wire-feed-pressure",
+  "target": "wire-birdnesting",
+  "relation": "causes"
+ },
+ {
+  "source": "excessive-heat",
+  "target": "bend-at-joint",
+  "relation": "causes"
+ },
+ {
+  "source": "excessive-heat",
+  "target": "fix-cool-between-passes",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excessive-heat",
+  "target": "fix-increase-travel-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excessive-heat",
+  "target": "fix-reduce-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excessive-heat",
+  "target": "increase-weld-speed-reduce-heat",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excessive-heat",
+  "target": "weld-small-portions-cool",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excessive-material-at-weld",
+  "target": "burn-through",
+  "relation": "causes"
+ },
+ {
+  "source": "excessive-material-at-weld",
+  "target": "excess-penetration",
+  "relation": "causes"
+ },
+ {
+  "source": "excessive-material-at-weld",
+  "target": "fix-reduce-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excessive-spatter",
+  "target": "fix-check-polarity",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excessive-spatter",
+  "target": "fix-clean-workpiece-and-wire",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excessive-spatter",
+  "target": "fix-increase-gas-flow",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excessive-spatter",
+  "target": "fix-reduce-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excessive-spatter",
+  "target": "stick-weld-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "excessively-worn-contact-tip",
+  "target": "check-replace-worn-contact-tip",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "excessively-worn-contact-tip",
+  "target": "wire-feeds-arc-does-not-ignite",
+  "relation": "causes"
+ },
+ {
+  "source": "faulty-improperly-connected-trigger",
+  "target": "secure-replace-trigger",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "faulty-improperly-connected-trigger",
+  "target": "welder-does-not-function-when-switched-on",
+  "relation": "causes"
+ },
+ {
+  "source": "feed-roller-not-enough-contact",
+  "target": "check-set-feed-tensioner",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "feed-roller-not-enough-contact",
+  "target": "wire-stops-during-welding",
+  "relation": "causes"
+ },
+ {
+  "source": "feed-tensioner-too-tight",
+  "target": "loosen-feed-tensioner",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "feed-tensioner-too-tight",
+  "target": "wire-feed-motor-runs-but-wire-does-not-feed",
+  "relation": "causes"
+ },
+ {
+  "source": "flux-cored-welding",
+  "target": "mig-welding",
+  "relation": "applies_to"
+ },
+ {
+  "source": "flux-ground-clamp-positive",
+  "target": "flux-core-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "flux-wire-feed-negative",
+  "target": "flux-core-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "gas-coverage-insufficient-high",
+  "target": "check-gas-flow-rate",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "gas-coverage-insufficient-high",
+  "target": "welding-arc-not-stable",
+  "relation": "causes"
+ },
+ {
+  "source": "gun-cable-severely-bent",
+  "target": "straighten-gun-cable",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "gun-cable-severely-bent",
+  "target": "wire-stops-during-welding",
+  "relation": "causes"
+ },
+ {
+  "source": "gun-liner-clogged-worn",
+  "target": "check-replace-gun-liner",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "gun-liner-clogged-worn",
+  "target": "wire-stops-during-welding",
+  "relation": "causes"
+ },
+ {
+  "source": "gun-liner-too-small",
+  "target": "verify-gun-liner-size",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "gun-liner-too-small",
+  "target": "wire-stops-during-welding",
+  "relation": "causes"
+ },
+ {
+  "source": "improper-clamping",
+  "target": "bend-at-joint",
+  "relation": "causes"
+ },
+ {
+  "source": "improper-clamping",
+  "target": "clamp-securely",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "improper-clamping",
+  "target": "fix-clamp-securely",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "improper-clamping",
+  "target": "make-tack-welds",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "improper-cord-gauge-length",
+  "target": "use-supplied-power-cord",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "improper-cord-gauge-length",
+  "target": "weak-arc-strength",
+  "relation": "causes"
+ },
+ {
+  "source": "improper-ground-connection",
+  "target": "check-ground-clamp-workpiece",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "improper-ground-connection",
+  "target": "wire-feeds-arc-does-not-ignite",
+  "relation": "causes"
+ },
+ {
+  "source": "improperly-sized-contact-tip",
+  "target": "verify-contact-tip-size-replace",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "improperly-sized-contact-tip",
+  "target": "wire-feeds-arc-does-not-ignite",
+  "relation": "causes"
+ },
+ {
+  "source": "inaccurate-welding",
+  "target": "crooked-wavy-bead",
+  "relation": "causes"
+ },
+ {
+  "source": "inaccurate-welding",
+  "target": "fix-steady-hand-position",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "inaccurate-welding",
+  "target": "use-both-hands-steady-surface",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "inadequate-penetration",
+  "target": "fix-bevel-and-gap",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "inadequate-penetration",
+  "target": "fix-correct-welding-technique",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "inadequate-penetration",
+  "target": "fix-increase-current",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "inadequate-penetration",
+  "target": "fix-increase-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "inconsistent-travel-speed",
+  "target": "crooked-wavy-bead",
+  "relation": "causes"
+ },
+ {
+  "source": "inconsistent-travel-speed",
+  "target": "fix-maintain-steady-travel-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "inconsistent-travel-speed",
+  "target": "porosity",
+  "relation": "causes"
+ },
+ {
+  "source": "inconsistent-welding-speed",
+  "target": "crooked-wavy-bead",
+  "relation": "causes"
+ },
+ {
+  "source": "inconsistent-welding-speed",
+  "target": "maintain-steady-weld-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "inconsistent-welding-speed",
+  "target": "porosity",
+  "relation": "causes"
+ },
+ {
+  "source": "incorrect-contact-tip-liner-size-wear",
+  "target": "replace-tip-liner-proper-size",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-contact-tip-liner-size-wear",
+  "target": "welding-arc-not-stable",
+  "relation": "causes"
+ },
+ {
+  "source": "incorrect-contact-tip-size",
+  "target": "replace-contact-tip-correct-size",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-contact-tip-size",
+  "target": "wire-birdnesting",
+  "relation": "causes"
+ },
+ {
+  "source": "incorrect-line-voltage",
+  "target": "check-line-voltage",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-line-voltage",
+  "target": "weak-arc-strength",
+  "relation": "causes"
+ },
+ {
+  "source": "incorrect-polarity",
+  "target": "excessive-spatter",
+  "relation": "causes"
+ },
+ {
+  "source": "incorrect-polarity",
+  "target": "fix-check-polarity",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-polarity",
+  "target": "porosity",
+  "relation": "causes"
+ },
+ {
+  "source": "incorrect-polarity-mig-flux",
+  "target": "ensure-correct-polarity",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-polarity-mig-flux",
+  "target": "flux-cored-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "incorrect-polarity-mig-flux",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "incorrect-polarity-mig-flux",
+  "target": "welding-arc-not-stable",
+  "relation": "causes"
+ },
+ {
+  "source": "incorrect-shielding-gas",
+  "target": "fix-use-correct-gas",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-shielding-gas",
+  "target": "mig-welding",
+  "relation": "applies_to"
+ },
+ {
+  "source": "incorrect-shielding-gas",
+  "target": "porosity",
+  "relation": "causes"
+ },
+ {
+  "source": "incorrect-welding-technique",
+  "target": "adjust-workpiece-position",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-welding-technique",
+  "target": "fix-correct-welding-technique",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-welding-technique",
+  "target": "hold-torch-at-proper-angles",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-welding-technique",
+  "target": "inadequate-penetration",
+  "relation": "causes"
+ },
+ {
+  "source": "incorrect-welding-technique",
+  "target": "keep-arc-on-leading-edge",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-welding-technique",
+  "target": "place-stringer-bead-correctly",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-welding-technique",
+  "target": "weld-not-adhering",
+  "relation": "causes"
+ },
+ {
+  "source": "incorrect-wire-feed-roller-size",
+  "target": "flip-wire-feed-roller",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-wire-feed-roller-size",
+  "target": "wire-feed-motor-runs-but-wire-does-not-feed",
+  "relation": "causes"
+ },
+ {
+  "source": "incorrect-wire-feed-speed",
+  "target": "adjust-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "incorrect-wire-feed-speed",
+  "target": "welding-arc-not-stable",
+  "relation": "causes"
+ },
+ {
+  "source": "insufficient-shielding-gas",
+  "target": "excessive-spatter",
+  "relation": "causes"
+ },
+ {
+  "source": "insufficient-shielding-gas",
+  "target": "fix-increase-gas-flow",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "insufficient-shielding-gas",
+  "target": "mig-welding",
+  "relation": "applies_to"
+ },
+ {
+  "source": "insufficient-shielding-gas",
+  "target": "porosity",
+  "relation": "causes"
+ },
+ {
+  "source": "insufficient-weld-heat",
+  "target": "fix-increase-current",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "insufficient-weld-heat",
+  "target": "fix-increase-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "insufficient-weld-heat",
+  "target": "inadequate-penetration",
+  "relation": "causes"
+ },
+ {
+  "source": "insufficient-weld-heat",
+  "target": "increase-current",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "insufficient-weld-heat",
+  "target": "slow-down-for-fusion",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "insufficient-weld-heat",
+  "target": "weld-not-adhering",
+  "relation": "causes"
+ },
+ {
+  "source": "insufficient-weld-material",
+  "target": "fix-increase-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "insufficient-weld-material",
+  "target": "inadequate-penetration",
+  "relation": "causes"
+ },
+ {
+  "source": "insufficient-weld-material",
+  "target": "increase-fill-material",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "insufficient-weld-material",
+  "target": "weld-not-adhering",
+  "relation": "causes"
+ },
+ {
+  "source": "insufficient-wire-feed-pressure",
+  "target": "increase-wire-feed-pressure",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "insufficient-wire-feed-pressure",
+  "target": "wire-feed-motor-runs-but-wire-does-not-feed",
+  "relation": "causes"
+ },
+ {
+  "source": "lcd-display-not-light",
+  "target": "check-circuit-breaker-gfci",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "lcd-display-not-light",
+  "target": "ensure-power-cord-fully-secured",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "lcd-display-not-light",
+  "target": "press-reset-button",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "lcd-display-not-light",
+  "target": "verify-outlet-voltage-connection",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "lcd-display-not-light",
+  "target": "verify-plug-rating",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "loose-mig-gun-ground-cable",
+  "target": "check-cable-connections-tight",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "loose-mig-gun-ground-cable",
+  "target": "welding-arc-not-stable",
+  "relation": "causes"
+ },
+ {
+  "source": "machine-incorrect-mode",
+  "target": "select-correct-process",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "machine-incorrect-mode",
+  "target": "welder-does-not-function-when-switched-on",
+  "relation": "causes"
+ },
+ {
+  "source": "machine-low-over-voltage-protection",
+  "target": "check-reset-input-voltage",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "machine-low-over-voltage-protection",
+  "target": "welder-does-not-function-when-switched-on",
+  "relation": "causes"
+ },
+ {
+  "source": "mig-120v-current-range",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "mig-120v-duty-cycle",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "mig-240v-current-range",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "mig-240v-duty-cycle",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "mig-ground-clamp-negative",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "mig-gun-cable-connector-not-fully-inserted",
+  "target": "insert-gun-cable-connector-properly",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "mig-gun-cable-connector-not-fully-inserted",
+  "target": "wire-birdnesting",
+  "relation": "causes"
+ },
+ {
+  "source": "mig-maximum-ocv",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "mig-welding",
+  "target": "ctwd-specification",
+  "relation": "applies_to"
+ },
+ {
+  "source": "mig-wire-capacity",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "mig-wire-feed-positive",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "mig-wire-speed",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "mig-wire-spool-capacity",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "not-enough-current",
+  "target": "switch-current-proper-setting",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "not-enough-current",
+  "target": "weak-arc-strength",
+  "relation": "causes"
+ },
+ {
+  "source": "outlet-unpowered",
+  "target": "check-circuit-breaker-gfci",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "outlet-unpowered",
+  "target": "lcd-display-not-light",
+  "relation": "causes"
+ },
+ {
+  "source": "plug-incorrect-rating",
+  "target": "lcd-display-not-light",
+  "relation": "causes"
+ },
+ {
+  "source": "plug-incorrect-rating",
+  "target": "verify-plug-rating",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "polarity-incorrect",
+  "target": "check-polarity-dcep-dcen",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "polarity-incorrect",
+  "target": "porosity-in-weld-metal",
+  "relation": "causes"
+ },
+ {
+  "source": "poor-workpiece-connection",
+  "target": "check-ground-clamp-connection",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "poor-workpiece-connection",
+  "target": "welding-arc-not-stable",
+  "relation": "causes"
+ },
+ {
+  "source": "porosity",
+  "target": "fix-check-polarity",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "porosity",
+  "target": "fix-clean-workpiece-and-wire",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "porosity",
+  "target": "fix-increase-gas-flow",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "porosity",
+  "target": "fix-maintain-steady-travel-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "porosity",
+  "target": "fix-reduce-ctwd",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "porosity",
+  "target": "fix-use-correct-gas",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "porosity",
+  "target": "stick-weld-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "porosity-in-weld-metal",
+  "target": "check-ctwd-procedure",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "porosity-in-weld-metal",
+  "target": "check-gas-regulator-flow",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "porosity-in-weld-metal",
+  "target": "check-polarity-dcep-dcen",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "porosity-in-weld-metal",
+  "target": "check-replenish-gas-bottle",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "porosity-in-weld-metal",
+  "target": "clean-welding-wire",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "porosity-in-weld-metal",
+  "target": "clean-workpiece-bare-metal",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "porosity-in-weld-metal",
+  "target": "flux-cored-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "porosity-in-weld-metal",
+  "target": "mig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "power-cord-not-seated-properly",
+  "target": "ensure-power-cord-fully-secured",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "power-cord-not-seated-properly",
+  "target": "lcd-display-not-light",
+  "relation": "causes"
+ },
+ {
+  "source": "shielding-gas-bottle-empty",
+  "target": "check-replenish-gas-bottle",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "shielding-gas-bottle-empty",
+  "target": "porosity-in-weld-metal",
+  "relation": "causes"
+ },
+ {
+  "source": "shielding-gas-flow-incorrect",
+  "target": "check-gas-regulator-flow",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "shielding-gas-flow-incorrect",
+  "target": "porosity-in-weld-metal",
+  "relation": "causes"
+ },
+ {
+  "source": "stick-120v-current-range",
+  "target": "stick-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "stick-120v-duty-cycle",
+  "target": "stick-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "stick-240v-current-range",
+  "target": "stick-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "stick-240v-duty-cycle",
+  "target": "stick-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "stick-electrode-holder-positive",
+  "target": "stick-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "stick-ground-clamp-negative",
+  "target": "stick-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "stick-maximum-ocv",
+  "target": "stick-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-120v-current-range",
+  "target": "tig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-120v-duty-cycle",
+  "target": "tig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-240v-current-range",
+  "target": "tig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-240v-duty-cycle",
+  "target": "tig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-ground-clamp-positive",
+  "target": "tig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-maximum-ocv",
+  "target": "tig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-stick-adjust-current-setting",
+  "target": "tig-stick-match-current-setting",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-adjust-current-setting",
+  "target": "tig-stick-welding-arc-not-stable",
+  "relation": "causes"
+ },
+ {
+  "source": "tig-stick-damaged-electrode-holder",
+  "target": "tig-stick-inspect-electrode-holder",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-damaged-electrode-holder",
+  "target": "tig-stick-welding-arc-not-stable",
+  "relation": "causes"
+ },
+ {
+  "source": "tig-stick-faulty-trigger",
+  "target": "tig-stick-secure-replace-trigger-fix",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-faulty-trigger",
+  "target": "tig-stick-welder-not-function",
+  "relation": "causes"
+ },
+ {
+  "source": "tig-stick-ground-clamp-not-attached",
+  "target": "tig-stick-attach-ground-clamp",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-ground-clamp-not-attached",
+  "target": "tig-stick-welder-not-function",
+  "relation": "causes"
+ },
+ {
+  "source": "tig-stick-improper-cord-gauge-length",
+  "target": "stick-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-stick-improper-cord-gauge-length",
+  "target": "tig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-stick-improper-cord-gauge-length",
+  "target": "tig-stick-use-supplied-power-cord",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-incorrect-line-voltage",
+  "target": "stick-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-stick-incorrect-line-voltage",
+  "target": "tig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-stick-incorrect-line-voltage",
+  "target": "tig-stick-check-line-voltage",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-lcd-not-light",
+  "target": "tig-stick-check-breaker",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-lcd-not-light",
+  "target": "tig-stick-verify-outlet",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-loose-electrode-cable",
+  "target": "tig-stick-check-connections-tight",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-loose-electrode-cable",
+  "target": "tig-stick-welding-arc-not-stable",
+  "relation": "causes"
+ },
+ {
+  "source": "tig-stick-outlet-unpowered",
+  "target": "tig-stick-check-breaker",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-outlet-unpowered",
+  "target": "tig-stick-lcd-not-light",
+  "relation": "causes"
+ },
+ {
+  "source": "tig-stick-shielding-gas-low",
+  "target": "tig-stick-replace-gas-cylinder",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-shielding-gas-low",
+  "target": "tig-stick-welding-arc-not-stable",
+  "relation": "causes"
+ },
+ {
+  "source": "tig-stick-shielding-gas-not-connected",
+  "target": "tig-stick-connect-shielding-gas",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-shielding-gas-not-connected",
+  "target": "tig-stick-welder-not-function",
+  "relation": "causes"
+ },
+ {
+  "source": "tig-stick-tripped-thermal-protection",
+  "target": "stick-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-stick-tripped-thermal-protection",
+  "target": "tig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-stick-tripped-thermal-protection",
+  "target": "tig-stick-reduce-welding-duration",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-unit-not-connected-outlet",
+  "target": "tig-stick-lcd-not-light",
+  "relation": "causes"
+ },
+ {
+  "source": "tig-stick-unit-not-connected-outlet",
+  "target": "tig-stick-verify-outlet",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-weak-arc-strength",
+  "target": "stick-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-stick-weak-arc-strength",
+  "target": "tig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-stick-weak-arc-strength",
+  "target": "tig-stick-check-line-voltage",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-weak-arc-strength",
+  "target": "tig-stick-use-supplied-power-cord",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-welder-not-function",
+  "target": "stick-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-stick-welder-not-function",
+  "target": "tig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "tig-stick-welder-not-function",
+  "target": "tig-stick-attach-ground-clamp",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-welder-not-function",
+  "target": "tig-stick-connect-shielding-gas",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-welder-not-function",
+  "target": "tig-stick-reduce-welding-duration",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-welder-not-function",
+  "target": "tig-stick-secure-replace-trigger-fix",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-welding-arc-not-stable",
+  "target": "tig-stick-check-connections-tight",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-welding-arc-not-stable",
+  "target": "tig-stick-inspect-electrode-holder",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-welding-arc-not-stable",
+  "target": "tig-stick-match-current-setting",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-stick-welding-arc-not-stable",
+  "target": "tig-stick-replace-gas-cylinder",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tig-torch-negative",
+  "target": "tig-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "travel-speed-too-slow",
+  "target": "burn-through",
+  "relation": "causes"
+ },
+ {
+  "source": "travel-speed-too-slow",
+  "target": "excess-penetration",
+  "relation": "causes"
+ },
+ {
+  "source": "travel-speed-too-slow",
+  "target": "fix-increase-travel-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tripped-thermal-protection",
+  "target": "wait-cool-and-reset",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "tripped-thermal-protection",
+  "target": "welder-does-not-function-when-switched-on",
+  "relation": "causes"
+ },
+ {
+  "source": "unit-not-connected-outlet-properly",
+  "target": "lcd-display-not-light",
+  "relation": "causes"
+ },
+ {
+  "source": "unit-not-connected-outlet-properly",
+  "target": "verify-outlet-voltage-connection",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "weak-arc-strength",
+  "target": "check-line-voltage",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "weak-arc-strength",
+  "target": "switch-current-proper-setting",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "weak-arc-strength",
+  "target": "use-supplied-power-cord",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "weld-not-adhering",
+  "target": "fix-correct-welding-technique",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "weld-not-adhering",
+  "target": "fix-increase-current",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "weld-not-adhering",
+  "target": "fix-increase-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "weld-not-adhering",
+  "target": "fix-widen-groove",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "weld-not-adhering",
+  "target": "stick-weld-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "weld-speed-too-fast",
+  "target": "inadequate-penetration",
+  "relation": "causes"
+ },
+ {
+  "source": "weld-speed-too-fast",
+  "target": "weld-slower",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "weld-speed-too-slow",
+  "target": "burn-through",
+  "relation": "causes"
+ },
+ {
+  "source": "weld-speed-too-slow",
+  "target": "excess-penetration",
+  "relation": "causes"
+ },
+ {
+  "source": "weld-speed-too-slow",
+  "target": "weld-faster",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welder-does-not-function-when-switched-on",
+  "target": "check-reset-input-voltage",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welder-does-not-function-when-switched-on",
+  "target": "secure-replace-trigger",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welder-does-not-function-when-switched-on",
+  "target": "select-correct-process",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welder-does-not-function-when-switched-on",
+  "target": "verify-circuit-voltage-amperage",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welder-does-not-function-when-switched-on",
+  "target": "wait-cool-and-reset",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welding-arc-not-stable",
+  "target": "adjust-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welding-arc-not-stable",
+  "target": "check-cable-connections-tight",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welding-arc-not-stable",
+  "target": "check-gas-flow-rate",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welding-arc-not-stable",
+  "target": "check-ground-clamp-connection",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welding-arc-not-stable",
+  "target": "ensure-correct-polarity",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welding-arc-not-stable",
+  "target": "inspect-repair-gun",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welding-arc-not-stable",
+  "target": "replace-tip-liner-proper-size",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "welding-arc-not-stable",
+  "target": "see-wire-feed-troubleshooting",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-birdnesting",
+  "target": "adjust-wire-feed-pressure",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-birdnesting",
+  "target": "insert-gun-cable-connector-properly",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-birdnesting",
+  "target": "inspect-repair-liner",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-birdnesting",
+  "target": "replace-contact-tip-correct-size",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-feed-motor-runs-but-wire-does-not-feed",
+  "target": "flip-wire-feed-roller",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-feed-motor-runs-but-wire-does-not-feed",
+  "target": "increase-wire-feed-pressure",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-feed-motor-runs-but-wire-does-not-feed",
+  "target": "inspect-replace-mig-gun-parts",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-feed-motor-runs-but-wire-does-not-feed",
+  "target": "loosen-feed-tensioner",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-feed-tension-2-3-inches",
+  "target": "flux-core-process",
+  "relation": "applies_to"
+ },
+ {
+  "source": "wire-feed-too-fast",
+  "target": "excessive-spatter",
+  "relation": "causes"
+ },
+ {
+  "source": "wire-feed-too-fast",
+  "target": "fix-reduce-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-feeds-arc-does-not-ignite",
+  "target": "check-ground-clamp-workpiece",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-feeds-arc-does-not-ignite",
+  "target": "check-replace-worn-contact-tip",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-feeds-arc-does-not-ignite",
+  "target": "clean-contact-tip",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-feeds-arc-does-not-ignite",
+  "target": "verify-contact-tip-size-replace",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-not-contacting-feed-rollers",
+  "target": "check-feed-roller-contact",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-not-contacting-feed-rollers",
+  "target": "wire-stops-during-welding",
+  "relation": "causes"
+ },
+ {
+  "source": "wire-not-feeding-properly",
+  "target": "see-wire-feed-troubleshooting",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-not-feeding-properly",
+  "target": "welding-arc-not-stable",
+  "relation": "causes"
+ },
+ {
+  "source": "wire-stops-during-welding",
+  "target": "check-replace-gun-liner",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-stops-during-welding",
+  "target": "check-set-feed-tensioner",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-stops-during-welding",
+  "target": "check-wire-spool-tangling",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-stops-during-welding",
+  "target": "straighten-gun-cable",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-stops-during-welding",
+  "target": "verify-gun-liner-size",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-tangled-on-spool",
+  "target": "check-wire-spool-tangling",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "wire-tangled-on-spool",
+  "target": "wire-stops-during-welding",
+  "relation": "causes"
+ },
+ {
+  "source": "workpiece-gap-too-narrow",
+  "target": "fix-widen-groove",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "workpiece-gap-too-narrow",
+  "target": "weld-not-adhering",
+  "relation": "causes"
+ },
+ {
+  "source": "workpiece-overheating",
+  "target": "burn-through",
+  "relation": "causes"
+ },
+ {
+  "source": "workpiece-overheating",
+  "target": "decrease-current",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "workpiece-overheating",
+  "target": "excess-penetration",
+  "relation": "causes"
+ },
+ {
+  "source": "workpiece-overheating",
+  "target": "fix-reduce-current",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "workpiece-overheating",
+  "target": "fix-reduce-current-or-wire-feed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "workpiece-overheating",
+  "target": "fix-reduce-wire-feed-speed",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "workpieces-too-thick",
+  "target": "fix-bevel-and-gap",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "workpieces-too-thick",
+  "target": "inadequate-penetration",
+  "relation": "causes"
+ },
+ {
+  "source": "workpieces-too-thick-or-close",
+  "target": "allow-slight-gap",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "workpieces-too-thick-or-close",
+  "target": "bevel-thick-workpieces",
+  "relation": "fixed_by"
+ },
+ {
+  "source": "workpieces-too-thick-or-close",
+  "target": "inadequate-penetration",
+  "relation": "causes"
+ }
+]

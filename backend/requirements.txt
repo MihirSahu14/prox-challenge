@@ -1,0 +1,8 @@
+claude-agent-sdk>=0.2.111
+anthropic>=0.79.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-dotenv>=1.0.0
+numpy>=1.26.0
+sentence-transformers>=3.0.0
+pymupdf>=1.28.0

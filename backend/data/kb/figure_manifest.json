@@ -1,0 +1,163 @@
+[
+  {
+    "figure_id": "front_panel_controls",
+    "source": "owner-manual.pdf",
+    "page": 8,
+    "bbox_pct": [0.03, 0.05, 1.0, 0.82],
+    "title": "Front Panel Controls diagram (Home/Back buttons, LCD display, control knobs, power switch, MIG gun socket, positive socket)"
+  },
+  {
+    "figure_id": "spec_duty_cycle_tables",
+    "source": "owner-manual.pdf",
+    "page": 7,
+    "bbox_pct": null,
+    "title": "Specifications page: MIG/TIG/Stick duty cycle and power tables for 120V and 240V"
+  },
+  {
+    "figure_id": "quickstart_wire_spool_setup",
+    "source": "quick-start-guide.pdf",
+    "page": 1,
+    "bbox_pct": null,
+    "title": "Quick Start Guide page 1: wire spool loading, feed mechanism, contact tip/nozzle, feed tension steps 1-6"
+  },
+  {
+    "figure_id": "stick_cable_setup",
+    "source": "quick-start-guide.pdf",
+    "page": 2,
+    "bbox_pct": [0.03, 0.09, 0.97, 0.38],
+    "title": "Stick cable setup: ground clamp to negative terminal, electrode holder to positive terminal"
+  },
+  {
+    "figure_id": "mig_flux_cable_setup",
+    "source": "quick-start-guide.pdf",
+    "page": 2,
+    "bbox_pct": [0.03, 0.38, 0.97, 0.67],
+    "title": "MIG cable setup (ground clamp negative, wire feed power positive) and Flux-Cored setup note (reversed polarity)"
+  },
+  {
+    "figure_id": "tig_cable_setup",
+    "source": "quick-start-guide.pdf",
+    "page": 2,
+    "bbox_pct": [0.03, 0.67, 0.97, 0.97],
+    "title": "TIG cable setup: ground clamp to positive terminal, TIG torch to negative terminal, gas line, foot pedal"
+  },
+  {
+    "figure_id": "selection_chart",
+    "source": "selection-chart.pdf",
+    "page": 1,
+    "bbox_pct": null,
+    "title": "How to choose a welding process: skill level, shielding gas, material, thickness, applications, weld cleanliness matrix for Flux-Cored/MIG/Stick/TIG"
+  },
+  {
+    "figure_id": "interior_controls_wire_feed",
+    "source": "owner-manual.pdf",
+    "page": 9,
+    "bbox_pct": [0.03, 0.04, 1.0, 0.52],
+    "title": "Interior Controls / wire feed mechanism: wire spool, spool knob, wire feed mechanism, feed tensioner, idler arm, feed roller knob, wire inlet liner, cold wire feed switch, foot pedal socket, wire feed control socket"
+  },
+  {
+    "figure_id": "wire_spool_loading_1_2lb",
+    "source": "owner-manual.pdf",
+    "page": 10,
+    "bbox_pct": [0.42, 0.63, 1.0, 0.93],
+    "title": "1-2 lb wire spool loading: wingnut, spacer, spool spindle, spool brake pad, welder wall stack-up"
+  },
+  {
+    "figure_id": "wire_spool_loading_10_12lb",
+    "source": "owner-manual.pdf",
+    "page": 11,
+    "bbox_pct": [0.4, 0.03, 1.0, 0.42],
+    "title": "10-12 lb wire spool loading: spool knob, wingnut, spacer, 10-12 lb spool adapter, spool spindle, brake pad"
+  },
+  {
+    "figure_id": "feed_tensioner_idler_arm",
+    "source": "owner-manual.pdf",
+    "page": 11,
+    "bbox_pct": [0.38, 0.68, 1.0, 0.94],
+    "title": "Feed tensioner and idler arm: loosening the tensioner knob so the spring-loaded idler arm swings up"
+  },
+  {
+    "figure_id": "feed_roller_replacement",
+    "source": "owner-manual.pdf",
+    "page": 12,
+    "bbox_pct": [0.4, 0.08, 1.0, 0.85],
+    "title": "Feed roller removal and replacement (steps A-D): feed roller knob, solid core V-groove sizes 0.025/0.030/0.035, flux-cored knurled groove sizes 0.030/0.035/0.045"
+  },
+  {
+    "figure_id": "wire_threading_feed_guide",
+    "source": "owner-manual.pdf",
+    "page": 15,
+    "bbox_pct": [0.42, 0.18, 1.0, 0.4],
+    "title": "Threading welding wire from the spool through the wire inlet liner and feed guide (hold wire securely)"
+  },
+  {
+    "figure_id": "mig_gun_nozzle_contact_tip",
+    "source": "owner-manual.pdf",
+    "page": 15,
+    "bbox_pct": [0.45, 0.6, 1.0, 0.78],
+    "title": "MIG gun parts: nozzle and contact tip removal"
+  },
+  {
+    "figure_id": "duty_cycle_clocks",
+    "source": "owner-manual.pdf",
+    "page": 19,
+    "bbox_pct": [0.5, 0.05, 0.95, 0.45],
+    "title": "Rated duty cycle clock graphics: 120VAC 40% at 100A (4 min welding / 6 min resting, 100% at 75A) and 240VAC 25% at 200A (2.5 min welding / 7.5 min resting, 100% at 115A)"
+  },
+  {
+    "figure_id": "ground_clamp_connection",
+    "source": "owner-manual.pdf",
+    "page": 19,
+    "bbox_pct": [0.44, 0.72, 1.0, 0.98],
+    "title": "Clamping the ground clamp to bare metal on the workpiece (ground connection depends on desired welding polarity)"
+  },
+  {
+    "figure_id": "tig_torch_assembly",
+    "source": "owner-manual.pdf",
+    "page": 26,
+    "bbox_pct": [0.48, 0.4, 1.0, 0.68],
+    "title": "TIG torch assembly: back cap, collet, collet body, ceramic nozzle, tungsten electrode insertion point"
+  },
+  {
+    "figure_id": "tungsten_electrode_grinding",
+    "source": "owner-manual.pdf",
+    "page": 26,
+    "bbox_pct": [0.66, 0.07, 1.0, 0.35],
+    "title": "Sharpening the tungsten electrode on a grinding wheel: grind parallel to electrode length, conical tip 2.5x electrode diameter"
+  },
+  {
+    "figure_id": "wire_weld_diagnosis_photos",
+    "source": "owner-manual.pdf",
+    "page": 35,
+    "bbox_pct": null,
+    "title": "Wire weld diagnosis: penetration profiles (inadequate/proper/excess) and example wire weld photos - good weld, voltage too low/high, wire feed too slow/fast, travel speed too fast/slow, CTWD too long or wrong polarity, with corrections"
+  },
+  {
+    "figure_id": "wire_weld_defects_matrix",
+    "source": "owner-manual.pdf",
+    "page": 36,
+    "bbox_pct": null,
+    "title": "Wire weld penetration profile views (burn-through / proper / inadequate), bend at joint, coat of slag over flux-cored weld, weld not adhering - causes and solutions"
+  },
+  {
+    "figure_id": "wire_weld_porosity_spatter",
+    "source": "owner-manual.pdf",
+    "page": 37,
+    "bbox_pct": null,
+    "title": "Wire weld defect photos with causes and solutions: porosity (small cavities/holes in bead), excessive spatter, crooked/wavy bead, burn-through"
+  },
+  {
+    "figure_id": "stick_weld_diagnosis_photos",
+    "source": "owner-manual.pdf",
+    "page": 38,
+    "bbox_pct": null,
+    "title": "Stick weld diagnosis: penetration heat control and example stick weld photos - good weld, current too low/high, weld speed too fast/slow, arc length too short/long, with corrections"
+  },
+  {
+    "figure_id": "assembly_parts_diagram",
+    "source": "owner-manual.pdf",
+    "page": 47,
+    "bbox_pct": null,
+    "title": "Exploded assembly diagram with numbered parts 1-61 (see parts list on page 46 for part names)"
+  }
+]

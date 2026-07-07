@@ -1,0 +1,15 @@
+{
+  "name": "prox-challenge",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Multimodal reasoning agent for the Vulcan OmniPro 220 welder",
+  "scripts": {
+    "postinstall": "npm install --prefix frontend && pip install -r backend/requirements.txt",
+    "dev": "concurrently -n backend,frontend -c yellow,cyan \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && uvicorn app.main:app --port 3002",
+    "dev:frontend": "npm run dev --prefix frontend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

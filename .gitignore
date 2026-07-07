@@ -1,0 +1,27 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+dist/
+
+# Ingestion working files / API-response cache (regenerable, not shipped)
+backend/data/.cache/
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+.claude/
+
+# markdown files
+CLAUDE.md
+context.md
+plan.md
