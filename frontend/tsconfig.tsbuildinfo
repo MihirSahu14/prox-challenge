@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/main.tsx","./src/types.ts","./src/api/chatstream.ts","./src/components/landing.tsx","./src/components/messagebubble.tsx","./src/components/blocks/artifactblock.tsx","./src/components/blocks/videomomentblock.tsx","./src/lib/artifacttemplate.ts","./src/lib/tts.ts","./src/lib/voice.ts"],"version":"5.9.3"}
