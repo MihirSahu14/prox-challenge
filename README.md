@@ -8,6 +8,10 @@ diagrams and photos from the documentation, and **interactive artifacts it gener
 
 > Built for the Prox founding-engineer challenge. Original challenge brief:
 > [`CHALLENGE.md`](CHALLENGE.md).
+>
+> **Hosted demo:** https://omnipro-expert.onrender.com — no setup needed (access code provided
+> in the submission; it runs on the author's API key). Free-tier note: first load after idle
+> can take a minute. Deployment lives on the [`deployed`](../../tree/deployed) branch.
 
 ## Quick start
 
