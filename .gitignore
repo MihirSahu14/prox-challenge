@@ -24,4 +24,6 @@ Thumbs.db
 # markdown files
 CLAUDE.md
 context.md
-plan.mdfrontend/tsconfig.tsbuildinfo
+plan.md
+frontend/tsconfig.tsbuildinfo
+
